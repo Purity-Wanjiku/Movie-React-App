@@ -133,7 +133,7 @@ if (loading) {
            <h1>No movies Found</h1>
           </div>
             )} */}
-         {/* Hunter's code*/}
+         {/* Hunter's code */}
 
      </div>
 </div>
