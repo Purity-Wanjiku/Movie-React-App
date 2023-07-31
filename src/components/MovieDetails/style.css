@@ -1,6 +1,11 @@
 .container{
     top: 30%;
 }
+.block1{
+    position: relative;
+    left: 120%;
+    margin-top: -80%;
+}
 .watchbtn{
     background-color: orange;
     margin-top: 5%;
@@ -12,4 +17,11 @@
     font-weight: 600;
     font-size: medium;
     margin-bottom: 2%; 
+}
+.block{
+    margin-bottom: 20%;
+}
+.image{
+    width: 70%;
+    height: 50%;
 }

@@ -26,37 +26,31 @@ const movie_id = 298618;
        <h1>Top Movies...</h1>
 {/* view movie details */}
 {moviedets && (
-      <>
-        <div>
+        <div >
 
-          <div>
-            <div>
-              <p> {moviedets.adult}</p>
-              <img src={`${IMAGE_BASE_URL}${moviedets.poster_path}`}alt={moviedets.title} />
-              <div>
+          <div className="block">
+
+              <img className="image" src={`${IMAGE_BASE_URL}${moviedets.poster_path}`}alt={moviedets.title} />
+
+            <div className="block1">
                 <span>&#9679;</span>
                 <span>&#9679;</span>
-                <div>{moviedets.title} </div>
-              </div>
-              <div>
-                <p>
+                {moviedets.title} 
+            
+            <p>
                 Release Date : {moviedets.release_date} 
-                </p>
-              </div>
-            </div>
-            <div>
+            </p>
+
               <p>{moviedets.overview}</p>
-            </div>
-          </div>
-          
-          <div>
-            <div>
+
+
              <button className="watchbtn"><a href={moviedets.homepage} target="_blank" rel="noopener noreferrer">Watch Now</a></button> 
             </div>
+
           </div>
+          
 
         </div>
-      </>
     )}
 
 {/* view movie details */}
