@@ -33,8 +33,6 @@ const movie_id = 298618;
               <img className="image" src={`${IMAGE_BASE_URL}${moviedets.poster_path}`}alt={moviedets.title} />
 
             <div className="block1">
-                <span>&#9679;</span>
-                <span>&#9679;</span>
                 {moviedets.title} 
             
             <p>
@@ -45,6 +43,7 @@ const movie_id = 298618;
 
 
              <button className="watchbtn"><a href={moviedets.homepage} target="_blank" rel="noopener noreferrer">Watch Now</a></button> 
+             <button className="favouritesbtn">Add To Favourites</button>
             </div>
 
           </div>
