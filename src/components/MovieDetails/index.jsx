@@ -28,6 +28,7 @@ const movie_id = 298618;
 {moviedets && (
       <>
         <div>
+
           <div>
             <div>
               <p> {moviedets.adult}</p>
@@ -39,7 +40,7 @@ const movie_id = 298618;
               </div>
               <div>
                 <p>
-                  {moviedets.vote_count}
+                Release Date : {moviedets.release_date} 
                 </p>
               </div>
             </div>
@@ -47,11 +48,13 @@ const movie_id = 298618;
               <p>{moviedets.overview}</p>
             </div>
           </div>
+          
           <div>
             <div>
-              <button>Watch Now</button>
+             <button className="watchbtn"><a href={moviedets.homepage} target="_blank" rel="noopener noreferrer">Watch Now</a></button> 
             </div>
           </div>
+
         </div>
       </>
     )}

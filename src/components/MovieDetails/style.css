@@ -1,3 +1,15 @@
 .container{
     top: 30%;
 }
+.watchbtn{
+    background-color: orange;
+    margin-top: 5%;
+    position: relative;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    margin-bottom: 2%; 
+}
